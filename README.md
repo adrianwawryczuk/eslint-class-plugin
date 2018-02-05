@@ -1,0 +1,1 @@
+# eslint-class-plugin
