@@ -1,0 +1,40 @@
+{
+  "name": "eslint-class-plugin",
+  "version": "0.1.0",
+  "description": "ESlint Class ruless",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "yarn eslint --fix ./rules/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emotec1/eslint-class-plugin.git"
+  },
+  "keywords": [
+    "eslint",
+    "class",
+    "extends",
+    "property",
+    "field",
+    "static",
+    "analyze"
+  ],
+  "author": "Adrian Wawryczuk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emotec1/eslint-class-plugin/issues"
+  },
+  "homepage": "https://github.com/emotec1/eslint-class-plugin#readme",
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "babel-jest": "^22.1.0",
+    "eslint": "4.17.0",
+    "eslint-plugin-jest": "^21.7.0",
+    "jest": "^22.1.4",
+    "regenerator-runtime": "^0.11.1"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.6.1"
+  }
+}
